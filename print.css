@@ -1,0 +1,104 @@
+/* header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+    display: none;
+  }
+*/ 
+html, body, .page {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 12pt;
+    font-family: Cambria, Helvetica, Georgia, serif
+}
+
+.page {    
+    overflow: hidden;       
+    background-color: #F7FDFF; 
+} 
+
+.page ul {
+    margin-top: 0;
+    padding-left: 1.5em;
+}
+
+.page > .main {    
+    height: 100%;  
+    max-width: 900px;   
+    padding: 1em;    
+}
+
+.page > .right {
+    float: right;
+    width: 150px;
+    height: 100%;
+    background-color: #CFE4ED;
+    padding: 1em;
+    /* TODO: media query for small width */
+}
+
+.page > .right > .skills > .title {
+    font-size: 18pt;
+}
+
+.page > .main .intro.section .name {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.page .title {
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+.page .section {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+.page .skills {
+    padding-top: 2.5em;
+}
+
+.page .skills .section {
+    padding: 0.5em 0;
+}
+
+.main .intro {
+    font-size: 11pt;
+}
+
+.main .intro .contact .address > div,
+.main .intro .contact .details > div {
+    float: left;
+}
+
+.below {
+    clear: left;    
+}
+
+.main .intro .contact .address > div:not(:last-child)::after,
+.main .intro .contact .details > div:not(:last-child)::after {
+    content: "\B7";
+    padding: 0 0.5em;
+}
+
+.main .job > .title {
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.page .main .experience.section,
+.page .main .summary.section {
+    border-bottom: 1px dotted black;
+}
+
+.indent-1 {
+    padding-left: 0.5em;
+}
+
+.indent-2 {
+    padding-left: 1em;
+}
+
+.section.clear-fix {
+    padding-top: 1em;
+}
